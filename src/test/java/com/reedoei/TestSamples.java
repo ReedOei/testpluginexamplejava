@@ -40,17 +40,6 @@ public class TestSamples {
     }
 
     @Test
-    public void test5() {
-        org.junit.Assume.assumeTrue(false);
-    }
-
-    @org.junit.Ignore
-    @Test
-    public void test6() {
-
-    }
-
-    @Test
     public void test7() {
         x++;
     }
