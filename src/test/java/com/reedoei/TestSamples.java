@@ -49,5 +49,10 @@ public class TestSamples {
     public void test6() {
 
     }
+
+    @Test
+    public void test7() {
+        x++;
+    }
 }
 
