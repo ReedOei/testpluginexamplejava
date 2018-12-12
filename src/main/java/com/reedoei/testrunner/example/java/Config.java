@@ -26,7 +26,6 @@ public class Config {
     }
 
     public static void reset() {
-        settingA(0);
-        settingB(0);
+        setBothSettings(0, 0);
     }
 }
