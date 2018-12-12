@@ -1,5 +1,0 @@
-[INFO] Scanning for projects...
-[INFO] 
-[INFO] ----------------< com.reedoei:testplugin-example-java >-----------------
-[INFO] Building testplugin-example-java 1.0-SNAPSHOT
-[INFO] --------------------------------[ jar ]---------------------------------

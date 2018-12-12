@@ -18,7 +18,7 @@
 [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ testplugin-example-java ---
 [INFO] Changes detected - recompiling the module!
 [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 2 source files to /home/roei/Java/testpluginexamplejava/target/test-classes
+[INFO] Compiling 3 source files to /home/roei/Java/testpluginexamplejava/target/test-classes
 [INFO] 
 [INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ testplugin-example-java ---
 [INFO] 
@@ -26,16 +26,19 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.reedoei.TestDiagnosisSamples
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 s - in com.reedoei.TestDiagnosisSamples
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in com.reedoei.TestDiagnosisSamples
+[INFO] Running com.reedoei.testrunner.example.java.ConfigTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.reedoei.testrunner.example.java.ConfigTest
 [INFO] Running com.reedoei.TestSamples
-[WARNING] Tests run: 6, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.001 s - in com.reedoei.TestSamples
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.reedoei.TestSamples
 [INFO] 
 [INFO] Results:
 [INFO] 
-[WARNING] Tests run: 9, Failures: 0, Errors: 0, Skipped: 2
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ testplugin-example-java ---
+[INFO] Building jar: /home/roei/Java/testpluginexamplejava/target/testplugin-example-java-1.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ testplugin-example-java ---
 [INFO] Installing /home/roei/Java/testpluginexamplejava/target/testplugin-example-java-1.0-SNAPSHOT.jar to /home/roei/.m2/repository/com/reedoei/testplugin-example-java/1.0-SNAPSHOT/testplugin-example-java-1.0-SNAPSHOT.jar
@@ -43,6 +46,6 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 3.608 s
-[INFO] Finished at: 2018-10-28T14:04:25-05:00
+[INFO] Total time: 3.167 s
+[INFO] Finished at: 2018-12-12T12:13:48-06:00
 [INFO] ------------------------------------------------------------------------
