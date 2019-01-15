@@ -26,98 +26,15 @@
 [INFO] 
 [INFO] --- testrunner-maven-plugin:0.1-SNAPSHOT:testplugin (default-cli) @ testplugin-example-java ---
 DIAGNOSER_MODULE_COORDINATES: com.reedoei:testplugin-example-java:1.0-SNAPSHOT
-[INFO] Creating minimizers for file: /home/roei/Java/testpluginexamplejava/.dtfixingtools/detection-results/dt-lists.json
-[INFO] Reading dependent test list from /home/roei/Java/testpluginexamplejava/.dtfixingtools/detection-results/dt-lists.json
-Verifying com.reedoei.TestDiagnosisSamples.testVictim, status: expected PASS, got PASS
-Verifying com.reedoei.TestDiagnosisSamples.testVictim, status: expected ERROR, got ERROR
-[INFO] Running minimizer for: com.reedoei.TestDiagnosisSamples.testVictim (expected result in this order: PASS)
-[INFO] Ran minimizer, dependencies: [com.reedoei.TestDiagnosisSamples.testPolluter]
-[INFO] Looking for cleaners for: com.reedoei.TestDiagnosisSamples.testVictim
-[INFO] Found 8 cleaner group candidates.
-Trying group 0 of 8 (found 0 so far)Trying group 1 of 8 (found 1 so far)Trying group 2 of 8 (found 1 so far)Trying group 3 of 8 (found 1 so far)Trying group 4 of 8 (found 1 so far)Trying group 5 of 8 (found 1 so far)Trying group 6 of 8 (found 2 so far)Trying group 7 of 8 (found 2 so far)[INFO] Found 2 cleaner groups.
-[INFO] Minimizing cleaner group 0: [com.reedoei.TestSamples.test1, com.reedoei.TestSamples.test2, com.reedoei.TestSamples.test3, com.reedoei.TestSamples.test4, com.reedoei.TestDiagnosisSamples.testPollutionCleaner]
-[INFO] Minimizing cleaner group 1: [com.reedoei.TestDiagnosisSamples.testPollutionCleaner]
-Confirming cleaner group (0 of 1) for com.reedoei.TestDiagnosisSamples.testVictim: [com.reedoei.TestDiagnosisSamples.testPollutionCleaner]
-Expected with cleaner result: ERROR, got: ERROR
-Expected without cleaner result: PASS, got: PASS
-[INFO] com.reedoei.TestDiagnosisSamples.testVictim has 1 cleaners: [[com.reedoei.TestDiagnosisSamples.testPollutionCleaner]]
-[INFO] com.reedoei.TestDiagnosisSamples.testVictim cleaner group size: 1
-[INFO] Cleaner group contains a test that is in the failing order: [com.reedoei.TestDiagnosisSamples.testPollutionCleaner]
-[INFO] Remaining tests no longer match expected: [com.reedoei.TestSamples.test1, com.reedoei.TestSamples.test2, com.reedoei.TestSamples.test3, com.reedoei.TestSamples.test4, com.reedoei.TestDiagnosisSamples.testPollutionCleaner]
-Verifying 1 of 1. Running check 1 of 2.Verifying 1 of 1. Running check 2 of 2.
-
-==============================================================
-Running diagnoser for com.reedoei.TestDiagnosisSamples.testVictim (expected result in this order: PASS)
-Tracking static field access for: com.reedoei.TestDiagnosisSamples.testVictim
--------------------------------
-Diagnosing polluter: [com.reedoei.TestDiagnosisSamples.testPolluter]
-Tracking first accesses for: com.reedoei.TestDiagnosisSamples.testVictim
-All polluted fields are: [com.reedoei.TestDiagnosisSamples.d, System.property.java.version]
-
-Finding rewrite targets for: com.reedoei.TestDiagnosisSamples.d
-Resetting com.reedoei.TestDiagnosisSamples.d
-REWRITE_RUN (.dtfixingtools/test-runs/output/1544475038472-6d7f725e-5697-4be4-90aa-4f3e066b2304): ERROR
-NO_REWRITE (.dtfixingtools/test-runs/output/1544475010856-9012dfee-aa2d-4a04-bd0b-c88d52b434e9): PASS
-
-Finding rewrite targets for: System.property.java.version
-Resetting System.property.java.version
-REWRITE_RUN (.dtfixingtools/test-runs/output/1544475039871-bc5bb3d2-0b89-454d-9d1c-5d6b8af96131): PASS
-NO_REWRITE (.dtfixingtools/test-runs/output/1544475010856-9012dfee-aa2d-4a04-bd0b-c88d52b434e9): PASS
-
-The causes are: [com.reedoei.TestDiagnosisSamples.d]
-==============================================================
-[INFO] Running minimizer for: com.reedoei.TestDiagnosisSamples.testVictim (expected result in this order: ERROR)
-
-==============================================================
-Running diagnoser for com.reedoei.TestDiagnosisSamples.testVictim (expected result in this order: ERROR)
-Found no polluters.
-Tracking static field access for: com.reedoei.TestDiagnosisSamples.testVictim
-==============================================================
-Verifying com.reedoei.TestSamples.test3, status: expected PASS, got PASS
-Verifying com.reedoei.TestSamples.test3, status: expected ERROR, got ERROR
-[INFO] Running minimizer for: com.reedoei.TestSamples.test3 (expected result in this order: PASS)
-[INFO] Ran minimizer, dependencies: [com.reedoei.TestSamples.test2]
-[INFO] Looking for cleaners for: com.reedoei.TestSamples.test3
-[INFO] Found 8 cleaner group candidates.
-Trying group 0 of 8 (found 0 so far)Trying group 1 of 8 (found 0 so far)Trying group 2 of 8 (found 0 so far)Trying group 3 of 8 (found 0 so far)Trying group 4 of 8 (found 0 so far)Trying group 5 of 8 (found 0 so far)Trying group 6 of 8 (found 0 so far)Trying group 7 of 8 (found 0 so far)[INFO] Found 0 cleaner groups.
-[INFO] com.reedoei.TestSamples.test3 has 0 cleaners: []
-[INFO] Remaining tests no longer match expected: [com.reedoei.TestSamples.test1]
-Verifying 1 of 1. Running check 1 of 2.Verifying 1 of 1. Running check 2 of 2.
-
-==============================================================
-Running diagnoser for com.reedoei.TestSamples.test3 (expected result in this order: PASS)
-Tracking static field access for: com.reedoei.TestSamples.test3
--------------------------------
-Diagnosing polluter: [com.reedoei.TestSamples.test2]
-Tracking first accesses for: com.reedoei.TestSamples.test3
-All polluted fields are: [System.property.java.version, com.reedoei.TestSamples.x]
-
-Finding rewrite targets for: System.property.java.version
-Resetting System.property.java.version
-REWRITE_RUN (.dtfixingtools/test-runs/output/1544475059698-eff8f694-c043-4e05-b9b4-ce866bcb6711): PASS
-NO_REWRITE (.dtfixingtools/test-runs/output/1544475043479-cb3d848f-96f1-4a26-959f-ff873f3fa449): PASS
-
-Finding rewrite targets for: com.reedoei.TestSamples.x
-Resetting com.reedoei.TestSamples.x
-REWRITE_RUN (.dtfixingtools/test-runs/output/1544475060799-ed56983c-6f2a-4b88-b808-d71e36979156): ERROR
-NO_REWRITE (.dtfixingtools/test-runs/output/1544475043479-cb3d848f-96f1-4a26-959f-ff873f3fa449): PASS
-
-The causes are: [com.reedoei.TestSamples.x]
-==============================================================
-[INFO] Running minimizer for: com.reedoei.TestSamples.test3 (expected result in this order: ERROR)
-[INFO] Did not find any deps
-
-==============================================================
-Running diagnoser for com.reedoei.TestSamples.test3 (expected result in this order: ERROR)
-Found no polluters.
-Tracking static field access for: com.reedoei.TestSamples.test3
-==============================================================
-Verifying com.reedoei.TestSamples.test4, status: expected PASS, got PASS
-Verifying com.reedoei.TestSamples.test4, status: expected ERROR, got PASS
+[INFO] Creating minimizers for file: /home/roei/Java/testpluginexamplejava/.dtfixingtools/detection-results/flaky-lists.json
+[INFO] Reading dependent test list from /home/roei/Java/testpluginexamplejava/.dtfixingtools/detection-results/flaky-lists.json
+Verifying com.reedoei.TestDiagnosisSamples.testVictim, status: expected PASS, got ERROR
+Verifying com.reedoei.TestSamples.test3, status: expected PASS, got ERROR
 TRY_COPY_ALL_FAILING_TEST_OUTPUT
+COPY_FAILING_TEST_OUTPUT: /home/roei/Java/testpluginexamplejava/failing-test-output-1547591312714-c5825677-6b99-44fe-a1d8-cf95c485292a
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 59.161 s
-[INFO] Finished at: 2018-12-10T14:51:05-06:00
+[INFO] Total time: 3.061 s
+[INFO] Finished at: 2019-01-15T16:29:19-06:00
 [INFO] ------------------------------------------------------------------------

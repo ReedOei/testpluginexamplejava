@@ -3,7 +3,6 @@ package com.reedoei.testrunner.example.java;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
-
 import static org.junit.Assert.*;
 
 // use this to ensure that dependency does not manifest in the default order

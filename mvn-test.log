@@ -26,11 +26,11 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.reedoei.TestDiagnosisSamples
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in com.reedoei.TestDiagnosisSamples
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 s - in com.reedoei.TestDiagnosisSamples
 [INFO] Running com.reedoei.testrunner.example.java.ConfigTest
 [INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.reedoei.testrunner.example.java.ConfigTest
 [INFO] Running com.reedoei.TestSamples
-[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.reedoei.TestSamples
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.reedoei.TestSamples
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -46,6 +46,6 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 3.167 s
-[INFO] Finished at: 2018-12-12T12:13:48-06:00
+[INFO] Total time: 4.139 s
+[INFO] Finished at: 2019-01-15T16:33:37-06:00
 [INFO] ------------------------------------------------------------------------
